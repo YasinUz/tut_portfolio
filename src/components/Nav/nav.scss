@@ -1,0 +1,29 @@
+nav {
+  height: 10vh;
+  width: 40%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  left: 30%;
+
+  background-color: white;
+  border: 1px solid black;
+}
+
+nav a:hover {
+  background-color: aqua;
+}
+
+nav a.active {
+  background-color: aqua;
+}
+
+a {
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 50%;
+}
